@@ -7,7 +7,7 @@ public class PalindromeWordTwoPointers {
 
     Logger logger = Logger.getLogger(getClass().getName());
 
-    public void checkPalindromeWord() {
+    public void checkWord() {
         String word = "rotator";
         boolean isPalindromeWord = isPalindrome(word);
 
