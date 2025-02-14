@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         PalindromeWordTwoPointers palindromeWordTwoPointers = new PalindromeWordTwoPointers();
-        palindromeWordTwoPointers.checkPalindromeWord();
+        palindromeWordTwoPointers.checkWord();
     }
 }
