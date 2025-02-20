@@ -18,7 +18,7 @@ public class Main {
         fibonacciDynamicProgramming.calculateFibonacci();
 
         // Factorial
-        Factorial factorial = new Factorial();
-        factorial.calculateFactorial();
+        FactorialIterativeLoop factorialIterativeLoop = new FactorialIterativeLoop();
+        factorialIterativeLoop.calculateFactorial();
     }
 }

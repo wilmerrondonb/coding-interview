@@ -3,7 +3,7 @@ package org.exercise;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Factorial {
+public class FactorialIterativeLoop {
 
     Logger logger = Logger.getLogger(getClass().getName());
 
