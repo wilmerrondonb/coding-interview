@@ -12,5 +12,9 @@ public class Main {
         // Anagram Strings
         AnagramString anagramString = new AnagramString();
         anagramString.checkString();
+
+        // Fibonacci Sequence
+        FibonacciDynamicProgramming fibonacciDynamicProgramming = new FibonacciDynamicProgramming();
+        fibonacciDynamicProgramming.calculateFibonacci();
     }
 }
