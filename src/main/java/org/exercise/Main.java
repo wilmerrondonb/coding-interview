@@ -19,7 +19,7 @@ public class Main {
         FibonacciDynamicProgramming fibonacciDynamicProgramming = new FibonacciDynamicProgramming();
         fibonacciDynamicProgramming.calculateFibonacci();
 
-        // Factorial //To Solve Git Issue
+        // Factorial
         FactorialIterativeLoop factorialIterativeLoop = new FactorialIterativeLoop();
         factorialIterativeLoop.calculateFactorial();
 
