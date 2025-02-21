@@ -16,5 +16,9 @@ public class Main {
         // Fibonacci Sequence
         FibonacciDynamicProgramming fibonacciDynamicProgramming = new FibonacciDynamicProgramming();
         fibonacciDynamicProgramming.calculateFibonacci();
+
+        // Factorial
+        FactorialIterativeLoop factorialIterativeLoop = new FactorialIterativeLoop();
+        factorialIterativeLoop.calculateFactorial();
     }
 }
