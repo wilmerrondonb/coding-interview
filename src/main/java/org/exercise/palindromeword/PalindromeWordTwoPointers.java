@@ -19,18 +19,16 @@ public class PalindromeWordTwoPointers {
     }
 
     private boolean isPalindrome(String word) {
-        boolean isPalindromeWord = true;
         int i = 0;
         int j = word.length() - 1;
 
         while (i < j) {
             if (word.charAt(i) != word.charAt(j)) {
-                isPalindromeWord = false;
-                break;
+                return Boolean.FALSE;
             }
             i++;
             j--;
         }
-        return isPalindromeWord;
+        return Boolean.TRUE;
     }
 }
