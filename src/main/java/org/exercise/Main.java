@@ -1,6 +1,7 @@
 package org.exercise;
 
 import org.exercise.palindromenumber.PalindromeNumberConvertToStringTwoPointers;
+import org.exercise.palindromenumber.PalindromeNumberIterative;
 import org.exercise.palindromeword.PalindromeWordTwoPointers;
 
 public class Main {
@@ -22,8 +23,12 @@ public class Main {
         FactorialIterativeLoop factorialIterativeLoop = new FactorialIterativeLoop();
         factorialIterativeLoop.calculateFactorial();
 
-        // Palindrome Number
+        // Palindrome Number: Convert number to String and implemented Two Pointers approach
         PalindromeNumberConvertToStringTwoPointers palindromeNumberConvertToStringTwoPointers = new PalindromeNumberConvertToStringTwoPointers();
         palindromeNumberConvertToStringTwoPointers.checkNumber();
+
+        // Palindrome Number Iterative approach
+        PalindromeNumberIterative palindromeNumberIterative = new PalindromeNumberIterative();
+        palindromeNumberIterative.checkNumber();
     }
 }
